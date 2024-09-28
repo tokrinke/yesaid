@@ -1,0 +1,4 @@
+<a [href]="album.spotify" class="album" title="Click to listen to {{album.name}}" *ngFor="let album of albums" >
+    <strong>{{album.name}}</strong>
+    <img [src]="album.gif" alt="{{album.name}}">
+</a>

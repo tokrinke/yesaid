@@ -1,0 +1,19 @@
+.container{
+    height: 4vh;
+    display: flex;
+    border-top: 2px rgb(21, 21, 21) solid;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Passion;
+    font-weight: 200;
+    font-size: 1.25em;
+    a{
+        transition: .2s;
+    }
+    a:hover{
+        color: #f58b57;
+    }
+    tj-refs{
+        font-size: 1em;
+    }
+}

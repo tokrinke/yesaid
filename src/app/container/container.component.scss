@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .display-quote{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)),
+        url(https://wallpapercave.com/wp/wp5735728.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .quote-box{
+            height: 70%;
+            aspect-ratio: 1.75/1;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: SC;
+            font-size: 3em;
+            font-weight: 500;
+            // border: 2px solid purple;
+            p{
+                background-color: transparent;
+            }
+        }
+        .refresh-btn{
+            outline: none;
+            height: 10%;
+            aspect-ratio: 1/1;
+            // border: solid 1px blue;
+            border: none;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .refresh{
+            height: 5rem;
+            width: 5rem;
+            transition: .2s;
+        }
+        .refresh:hover{
+            cursor: pointer;
+            fill: #f2274c;
+        }
+        svg{
+            background-color: transparent;
+        }
+    }
+    .display-discography{
+        height: 96vh;
+        width: 100%;
+        // border: 2px green solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+        h2{
+            height: 12%;
+            width: 30%;
+            font-family: SC;
+            font-size: 4em;
+            text-align: center;
+            color: #f58b57;
+            transition: .3s;
+        }
+        h2:hover{
+            cursor: pointer;
+            color: #a75f3b;
+            text-shadow: 1px 3px #412517;
+        }
+        .albums-box{
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            app-album{
+                height: 50%;
+                width: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 3vw;
+            }
+        }
+    }
+}

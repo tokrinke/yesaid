@@ -1,0 +1,38 @@
+<section class="container">
+    <div class="display-quote">
+        <div class="quote-box">
+            <p>{{quote}}</p>
+        </div>
+        <button class="refresh-btn">
+            <svg (click)="getKanyesQuote()" xmlns="http://www.w3.org/2000/svg" 
+            x="0px" y="0px" width="60" height="60" viewBox="0,0,256,256">
+                <g class="refresh" fill="#ffffff" fill-rule="nonzero" stroke="none"
+                 stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" 
+                 stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" 
+                 font-family="none" font-weight="none" font-size="none" 
+                 text-anchor="none" style="mix-blend-mode: normal">
+                 <g transform="scale(5.12,5.12)">
+                    <path d="M39,35.39l-3,1.73v9.24l-3,1.73l-20,-11.54v-8.09l3,
+                    -1.73l4,2.31v3.47l9,5.19v-4.62l-3,-1.73l8,-4.62z"></path>
+                    <path d="M37,13.45v8.09l-3,1.73l-4,-2.31v-3.47l-9,-5.19v4.62l3,
+                    1.73l-8,4.62l-5,-8.66l3,-1.73v-9.24l3,-1.73z"></path>
+                    <path d="M33,35.392l3,1.732l-5,-8.66l-5,2.887l3,1.732v8.083l-12,
+                    -6.928v-3.464l-4,-2.31v8.083l20,11.547z"></path>
+                    <path d="M14,16.34l-3,-1.732l5,8.66l5,-2.887l-3,
+                    -1.732v-8.083l12,6.928v3.465l4,2.309v-8.083l-20,-11.547z">
+                </path><path d="M34,15.185l3,-1.732v8.083l-3,1.732z"></path>
+                <path d="M33,35.392l3,1.732v9.238l-3,1.732z"></path>
+                <path d="M18,10.566l3,1.732v4.619l-3,1.732z"></path>
+                <path d="M17,30.774l3,-1.733v3.465l-3,1.732z"></path>
+                <rect x="12.61416" y="40.14919" transform="rotate(-30)"
+                 width="3.464" height="10"></rect></g></g>
+                </svg>
+        </button>
+    </div>
+    <div class="display-discography">
+        <h2>DISCOGRAPHY</h2>
+        <div class="albums-box">
+            <app-album></app-album>
+        </div>
+    </div>    
+</section>
