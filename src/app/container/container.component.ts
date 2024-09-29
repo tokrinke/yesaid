@@ -11,7 +11,7 @@ import { AlbumComponent } from "./album/album.component";
 })
 export class ContainerComponent {
   xhr: any
-  quote = 'You basically can say anything to someone on an email or text as long as you put LOL at the end.';
+  quote = 'Everything you do in life stems from either fear or love';
   getKanyesQuote(){
     this.xhr = new XMLHttpRequest();
     this.xhr.open('GET', 'https://api.kanye.rest/text', true);

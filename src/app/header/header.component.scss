@@ -7,15 +7,14 @@
     border-bottom: 2px rgb(21, 21, 21) solid;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     h1{
-        color: #f58b57;
+        color: #a75f3b;
+        text-shadow: 1px 3px #412517;
         background-color: transparent;
         font-family: Bangers;
-        transition: .3s;
+        transition: .1s;
         font-size: 5rem;
     }
     h1:hover{
         cursor: pointer;
-        color: #a75f3b;
-        text-shadow: 1px 3px #412517;
     }
 }
